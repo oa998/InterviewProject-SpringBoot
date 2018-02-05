@@ -1,0 +1,10 @@
+TODO:
+
+You need to do two major things with this part of the project:
+
+1.  We have 500 rows of staff data that needs to be added to the database from the `employee.csv` file.  This has to
+    be done first.  Figure out a way to get all the data into the database without mistakes.  Liquibase should be the
+    only way that you modify the database for this project.
+
+2.  We need to expose a way to get any user by their id in the database. This will be useful if we make it to the final
+    stages of implementing functionality to the React part of the project.
